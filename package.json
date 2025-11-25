@@ -10,7 +10,7 @@
     "build:web": "astro build",
     "build:zig": "zig build",
     "vercel-build": "echo 'skip zig'",
-    "build:cloud": "npm run build:css && npm run build:web"
+    "build:cloud": "npm run build:css && npm run build:web",
     "clean:web": "rm -rf web/templates/*",
     "clean:zig": "rm -rf zig-out",
     "clean": "npm run clean:web && npm run clean:zig",
